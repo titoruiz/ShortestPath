@@ -1,38 +1,82 @@
+/* import styling for the react-vis charts*/
+
+/* set the background color of the page */
+Body {
+  background-color: #282c34;
+
+}
+
 .App {
+  justify-content: space-around;
   text-align: center;
+  background-color: #282c34;
+  color: #f3f6f7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rv-discrete-color-legend-item__title {
+  color: #f3f6f7;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.CenterScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.CenterScreenImage {
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+div#AboutSection {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.AboutTitle {
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.DatasetsTitle {
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.LinksTitle {
+  position: relative;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+a {
+  color: orange;
+}
+
+.Title {
+  font-size: calc(50px + 2vmin);
+  margin-bottom: 25px;
+}
+
+.App-link {
+  color: #61dafb;
 }
