@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+ 
 const NavBar = () => {
   return (
     <div className="Nav">
@@ -15,7 +15,7 @@ const NavBar = () => {
         </Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link>
-            <Link to="/" className="App-link">
+            <Link to="/visualize" className="App-link">
               Visualize
             </Link>
           </Nav.Link>
@@ -29,5 +29,5 @@ const NavBar = () => {
     </div>
   );
 };
-
+ 
 export default NavBar;
